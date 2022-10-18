@@ -1,0 +1,43 @@
+/*Universal*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, Arial;
+ }
+
+/*body*/
+
+
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+    
+}
+
+.section{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: white;
+    padding: 40px 40px;
+    margin-top: 194px;
+}
+
+section p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*Styles*/
+p{
+    font-family: Roboto, Arial;
+}
+
+.title{
+    font-family: Arial;
+    color: white;
+    height: 50;
+    
+}
