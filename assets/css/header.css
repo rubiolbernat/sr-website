@@ -85,7 +85,7 @@ nav > ul > li > a:hover{
     text-decoration: none;
     text-align: right;
 
-    background-image: url(../icons/traductor.png);
+    background-image: url('../icons/traductor.png');
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: 70px;
