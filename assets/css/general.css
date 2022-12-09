@@ -1,0 +1,161 @@
+:root{
+  --blau: #242970;
+  --blue: #242970;
+  --black: black;
+  --white: rgb(255, 255, 255);
+  --white_alpha: rgba(255, 255, 255, 0.486);
+  --gris:#343434;
+  --darkgris: #343434;
+}
+
+/*Universal*/
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+  font-family: roboto, Arial;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1{
+  padding: 5px;
+}
+
+p{
+  padding-top: 20px;
+}
+
+.spacing{
+  height: 45px;
+  position: relative;
+  margin-top: -40px;
+  z-index: 0;
+}
+
+body{
+  background-color: #f0f0f0;
+}
+
+article{
+  max-width: 1200px;
+  margin: 15px auto;
+  padding: 16px;
+  padding-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+footer{
+  width: 100%;
+  padding: 50px 0px;
+  background-color: var(--blue);
+  color: white;
+}
+
+.container_footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  transition: all 1s;
+  opacity: 0.5;
+}
+
+.footer_box{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer_box h2{
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 700;
+}
+
+.footer_box a{
+  margin-top: 10px;
+  color: var(--white);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.footer_box a:hover{
+  color: white;
+}
+
+.container_footer:hover{
+  opacity: 1;
+}
+
+.footer_logo img{
+  width: 180px;
+}
+
+.footer_terms{
+  max-width: 300px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.footer_social_icon{
+  height: 15px;
+  padding-right: 5px;
+  filter: invert(100%);
+  opacity: 0.5;
+  transition: all 1s;
+}
+
+.footer_social_icon:hover{
+  opacity: 1;
+}
+
+.footer_copyright{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.footer_copyright hr{
+  border: none;
+  height: 1px;
+  background-color: whitesmoke;
+}
+
+.footer_copyright p{
+  margin-top: 20px;
+  color: whitesmoke;
+}
+
+/*Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(0, 0, 0);
+  /*display: none;*/
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0); 
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(169, 169, 169, 0); 
+}
